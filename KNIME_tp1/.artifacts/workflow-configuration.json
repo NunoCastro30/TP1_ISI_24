@@ -1,0 +1,22 @@
+{
+    "file-chooser-input-27": {
+        "label": "Label",
+        "type": "array",
+        "items": {
+            "type": "object"
+        },
+        "default": [
+            {
+                "type": "object",
+                "path": {
+                    "type": "string",
+                    "default": "knime://LOCAL/"
+                },
+                "fileType": {
+                    "type": "string",
+                    "default": "DIRECTORY"
+                }
+            }
+        ]
+    }
+}

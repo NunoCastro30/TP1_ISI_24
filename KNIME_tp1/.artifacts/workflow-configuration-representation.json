@@ -1,0 +1,36 @@
+{
+    "file-chooser-input-27": {
+        "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeValue",
+            "items": [
+                {
+                    "path": "knime://LOCAL/",
+                    "type": "DIRECTORY"
+                }
+            ]
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeValue",
+            "items": [
+                {
+                    "path": "knime://LOCAL/",
+                    "type": "DIRECTORY"
+                }
+            ]
+        },
+        "selectWorkflows": false,
+        "selectDirectories": true,
+        "selectDataFiles": true,
+        "useDefaultMountId": false,
+        "customMountId": "",
+        "rootDir": "",
+        "fileTypes": [
+        ],
+        "multipleSelection": false,
+        "errorMessage": ""
+    }
+}
